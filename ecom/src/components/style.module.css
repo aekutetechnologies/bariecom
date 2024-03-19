@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap');
 *{
     box-sizing: border-box;
+    font-family: "Readex Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "HEXP" 0;
 }
+
+
 .container {
     display: flex;
     flex-direction: column;
@@ -9,13 +17,22 @@
     background-image: url('../assets/banner-shap-2.png');
 }
 .heading {
-    margin-top: 30px;
+    font-weight: 800;
+    color: #50623A;
+    font-size: 50px;
+    
+}
+.heading p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .para {
     width: 40%;
+    font-weight: 200;
 }
 .companyLogo {
     width: 200px;
+    
 }
 .companyLogo img {
     width: 100%;

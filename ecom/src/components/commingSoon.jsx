@@ -9,25 +9,25 @@ import Animation from './animation';
 function CommingSoon() {
   return (
     <div className={styles.container}>
-    {/* <div className={styles.companyLogo}>
+    <div className={styles.companyLogo}>
         <img src={Logo} alt='logo' />
-    </div> */}
+    </div>
     <div className={styles.heading}>
-        <h1>WE ARE COMING SOON!!</h1>
+        <p>LAUNCHING SOON!!</p>
     </div>
-    <div className={styles.para}>
-        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin</p>
-    </div>
+    {/* <div className={styles.para}>
+        <p>Get ready for effortless shopping! Our Grocery Ecommerce platform is on its way, bringing convenience to your doorstep. Stay tuned for the launch and revolutionize the way you shop for groceries.</p>
+    </div> */}
     <div>
         <Animation></Animation>
     </div>
-    <div className={styles.para}>
-        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin</p>
-    </div>
+    {/* <div className={styles.para}>
+        <p></p>
+    </div> */}
     <div>
     </div>
     <div>
-        <p> &#169; This is copyright dummy text</p>
+        <p> &#169; 2024 Aekute Technologies. All Rights Reserved.</p>
     </div>
     </div>
   );
